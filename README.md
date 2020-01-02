@@ -36,18 +36,13 @@ Installing
 
 Run the command bin/setup to install the build the project (Java, Maven assumed to be pre-installed on the system)
 
-	bin/setup
-
-Running the test cases
-
-Run the command bin/run_functional_tests to run the test cases
-
-	bin/run_functional_tests
+	bin/setup.sh
 
 Running from command prompt
 
-bin/setup java -jar target/parkinglot-0.0.1-SNAPSHOT.jar (Will open an interactive command prompt) java -jar target/parkinglot-0.0.1-SNAPSHOT.jar (Will read the commands from the file)
-Built With
+	bin/parking_lot.sh - to open a interactive command prompt
+
+	bin/parking_lot.sh <full path of the Input File> - accepts a file and will output the stdout
 
     Maven - Build/Dependency Management
 
